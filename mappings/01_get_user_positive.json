@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/v1/users/\\d+"
+  },
+  "response": {
+    "status": 200,
+    "headers": {"Content-Type":"application/json"},
+    "jsonBody": {
+      "code": 200,
+      "data": {
+        "id": "{{request.path.[3]}}",
+        "username": "testuser",
+        "email": "test@example.com"
+      },
+      "msg": "success"
+    },
+    "transformers": ["response-template"]
+  }
+}

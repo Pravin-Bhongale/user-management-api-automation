@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/users",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$[?(@.username=='')]" }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "body": "{\"code\":400,\"data\":null,\"msg\":\"username cannot be empty\"}",
+    "headers": {"Content-Type":"application/json"}
+  }
+}

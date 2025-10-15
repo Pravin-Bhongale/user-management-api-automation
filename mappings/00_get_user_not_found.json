@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/v1/users/[A-Za-z]+"
+  },
+  "response": {
+    "status": 404,
+    "body": "{\"code\":404,\"data\":null,\"msg\":\"user not found\"}",
+    "headers": {"Content-Type":"application/json"}
+  }
+}

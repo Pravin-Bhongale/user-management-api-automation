@@ -1,0 +1,10 @@
+{
+  "test": {
+    "base_url": "http://localhost:8080/api/v1",
+    "timeout": 10
+  },
+  "staging": {
+    "base_url": "https://staging.api.example.com/api/v1",
+    "timeout": 10
+  }
+}

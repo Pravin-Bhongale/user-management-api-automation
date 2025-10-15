@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9893008d-2603-4998-82f1-6b51432f69af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/user-management-api-tests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/user_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/assertions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/test_env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/00_get_user_not_found.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/01_get_user_positive.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/batch_query_invalid_params.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/batch_query_positive.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/create_user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/create_user_empty_username.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/create_user_invalid_email.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/create_user_long_username.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/delete_user_not_found.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/delete_user_positive.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/update_user_not_found.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/update_user_positive.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_tests.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_batch_query_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_create_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_delete_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_update_user.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="342zYjq27HOuFRb4eRmQy6poUo1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Batch.run_tests.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in testcases.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\OneDrive - macmarts.com\Documents\user-management-api-tests\testcases" />
+      <recent name="C:\Users\LENOVO\OneDrive - macmarts.com\Documents\user-management-api-tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Batch.run_tests">
+    <configuration name="run_tests" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="user-management-api-tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\LENOVO\OneDrive - macmarts.com\Documents\user-management-api-tests" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="run_tests.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in testcases" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="user-management-api-tests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Batch.run_tests" />
+        <item itemvalue="Python tests.Python tests in testcases" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-79ce2b023f03-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.25557.130" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9893008d-2603-4998-82f1-6b51432f69af" name="Changes" comment="" />
+      <created>1760426506766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760426506766</updated>
+    </task>
+    <servers />
+  </component>
+</project>

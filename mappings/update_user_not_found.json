@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPathPattern": "/api/v1/users/[a]"
+  },
+  "response": {
+    "status": 404,
+    "body": "{\"code\":404,\"data\":null,\"msg\":\"user not found\"}",
+    "headers": {"Content-Type":"application/json"}
+  }
+}

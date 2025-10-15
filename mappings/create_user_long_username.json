@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/users",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.username =~ /.{256,}/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 422,
+    "body": "{\"code\":422,\"data\":null,\"msg\":\"username too long\"}",
+    "headers": {"Content-Type":"application/json"}
+  }
+}

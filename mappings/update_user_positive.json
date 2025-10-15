@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPathPattern": "/api/v1/users/\\d+"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"code\":200,\"data\":null,\"msg\":\"success\"}",
+    "headers": {"Content-Type":"application/json"}
+  }
+}

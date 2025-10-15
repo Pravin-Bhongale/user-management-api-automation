@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1/users\\?page=-1.*"
+  },
+  "response": {
+    "status": 400,
+    "body": "{\"code\":400,\"data\":null,\"msg\":\"invalid query parameters\"}",
+    "headers": {"Content-Type":"application/json"}
+  }
+}

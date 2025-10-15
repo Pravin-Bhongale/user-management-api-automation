@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/users"
+  },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "code": 200,
+      "data":  { "username": "{{jsonPath request.body '$.username'}}" },
+      "msg": "success"
+    },
+    "transformers": ["response-template"]
+  }
+}

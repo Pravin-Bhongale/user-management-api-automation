@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/users",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$[?(@.email =~ /.+@.+\\..+/ == false)]" }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "body": "{\"code\":400,\"data\":null,\"msg\":\"invalid email format\"}",
+    "headers": {"Content-Type":"application/json"}
+  }
+}
