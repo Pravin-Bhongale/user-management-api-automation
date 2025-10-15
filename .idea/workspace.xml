@@ -5,40 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9893008d-2603-4998-82f1-6b51432f69af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/user-management-api-tests.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/user_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/assertions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/test_env.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/00_get_user_not_found.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/01_get_user_positive.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/batch_query_invalid_params.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/batch_query_positive.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/create_user.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/create_user_empty_username.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/create_user_invalid_email.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/create_user_long_username.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/delete_user_not_found.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/delete_user_positive.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/update_user_not_found.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mappings/update_user_positive.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_tests.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_batch_query_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_create_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_delete_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_get_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_update_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +21,39 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Pravin-Bhongale"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Pravin-Bhongale/user-management-api-automation.git",
+    "accountId": "a01014b8-2f9b-4a86-a885-0f43c2a3dc7d"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -77,7 +76,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "api__automation"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -134,5 +133,28 @@
       <updated>1760426506766</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="api_automation" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

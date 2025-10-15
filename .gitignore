@@ -1,0 +1,42 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Pytest & Allure
+.pytest_cache/
+.allure-results/
+allure-report/
+reports/
+logs/
+output.xml
+
+# Playwright
+playwright-report/
+test-results/
+trace.zip
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+
+# Misc
+*.log
+.cache/
